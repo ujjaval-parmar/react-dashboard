@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+  @apply bg-gray-900 flex flex-col rounded-lg pb-0 h-fit
+}
+
+.scroll-table{
+  /* scrollbar-color: red orange; */
+  scrollbar-width: thin;
+}
